@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>GITU HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="login" id="loginPage">
+    <h2>Login GITU HUB</h2>
+    <input type="text" id="username" placeholder="Username">
+    <button onclick="login()">Login</button>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard" id="dashboard">
+    <h1>🌱 GITU HUB</h1>
+    <p>Aplikasi Klasifikasi Lingkungan Berbasis AI</p>
+
+    <h3>Upload Foto Lingkungan</h3>
+    <input type="file" id="imageInput">
+    <button onclick="analyze()">Analisis Lingkungan</button>
+
+    <div id="result"></div>
+
+    <button class="logout" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
